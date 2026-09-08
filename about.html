@@ -1,82 +1,165 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>About Me</title>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Suhail Ward</title>
     <link rel="stylesheet" href="src/styles.css">
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <button class="menu-btn" onclick="toggleMenu()">Menu</button>
+<header class="nav-container">
 
-    <div class="top-banner">
-      <h1>Programming Portfolio</h1>
-    </div>
+<div class="logo">
+    <a href="index.html">SW</a>
+</div>
 
-    <div class="sidebar">
-      <a href="index.html">Home</a>
-      <a href="about.html">About Me</a>
-      <a href="projects.html">Projects</a>
-    </div>
+<nav class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="index.html#skills">Skills</a>
+    <a href="index.html#contact">Contact</a>
+</nav>
 
-    <main class="about-main">
-      <h1>About Me</h1>
+</header>
 
-      <p>
-        As a passionate Software Engineering student, I have developed a broad technical and software skillset which has a scope beyond just IT. This incorporates areas such as Engineering Graphics Design (EGD), Computer-Aided Design (CAD), and hands-on development through various personal projects.
-      </p>
+<main>
 
-      <p>
-        I have a strong understanding and the ability to work with a range of programming languages, which I showcase on platforms such as this website portfolio I created using GitHub. This has also allowed me to broaden my knowledge of how these languages can create tangible solutions to users, which improve their daily interactions.
-      </p>
+<section class="section about-page">
 
-      <p>
-        Outside of my academic studies, I have also gained real-world experience through my time working in the retail industry. This has allowed me to strengthen my problem-solving and communication skills through assisting retail staff with POS systems, as well as actively engaging with customers through providing relevant product knowledge.
-      </p>
+    <div class="about-header">
 
-      <p>
-        Whether it's creating a new project, managing existing systems, or even collaborating with others to support and achieve common goals. I am a person who is always ready to learn, grow, and contribute.
-      </p>
-      
-    <hr>
+        <p class="role">ABOUT ME</p>
 
-    <section class="experience">
-      <h2>Experience</h2>
+        <h1>Suhail Ward</h1>
 
-      <div class="experience-item">
-        <h3>Retail Systems Support Assistant</h3>
-        <p class="experience-meta">
-          Sleep King ~ Part-time<br>
-          February 2023 - Present ~ Durban ~ On-site
+        <p class="about-intro">
+            Software Engineering student interested in building practical
+            software, understanding how systems work, and continuously
+            developing my technical skills.
         </p>
 
-        <ul>
-          <li>
-            Regularly maintain POS systems, including software updates and system upgrades.
-          </li>
-          <li>
-            Use DBMS software to manage inventory data and ensure integration with POS systems, including sales and return records.
-          </li>
-          <li>
-            Assist with training new and existing sales representatives to ensure correct POS system usage.
-          </li>
-          <li>
-            Engage with customers to understand needs and recommend products, supporting sales during high-demand periods.
-          </li>
-        </ul>
-      </div>
-    </section>
-  </main>
+    </div>
 
-  <footer>
-    <p>Developed By Kaden Ward</p>
-  </footer>
+    <div class="about-content">
 
-    <script>
-      function toggleMenu() {
-        document.querySelector(".sidebar").classList.toggle("open");
-      }
-    </script>
-    
-  </body>
+        <section class="about-section">
+
+            <h2>Who I Am</h2>
+
+            <p>
+                I am a Software Engineering student with an interest in
+                software development, backend systems, databases and
+                cybersecurity. I enjoy solving problems through code and
+                turning ideas into practical applications.
+            </p>
+
+            <p>
+                Throughout my studies and personal projects, I have worked
+                with a range of programming languages and technologies.
+                Building applications has allowed me to develop a stronger
+                understanding of how software, databases and different
+                system components work together to create useful solutions.
+            </p>
+
+            <p>
+                I also enjoy learning outside of individual programming
+                languages. Exploring areas such as Linux, networking,
+                databases and cybersecurity has helped me develop a broader
+                understanding of software and computing systems.
+            </p>
+
+        </section>
+
+        <section class="about-section">
+
+            <h2>Experience</h2>
+
+            <div class="experience-item">
+
+                <h3>Retail Systems Support Assistant</h3>
+
+                <p class="experience-meta">
+                    Sleep King · Part-time<br>
+                    February 2023 – Present · Durban · On-site
+                </p>
+
+                <ul>
+                    <li>
+                        Maintain POS systems, including software updates
+                        and system upgrades.
+                    </li>
+
+                    <li>
+                        Use DBMS software to manage inventory data and
+                        maintain integration with POS systems, including
+                        sales and return records.
+                    </li>
+
+                    <li>
+                        Assist with training new and existing sales
+                        representatives on correct POS system usage.
+                    </li>
+
+                    <li>
+                        Assist customers by understanding their needs and
+                        providing relevant product knowledge and
+                        recommendations.
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <section class="about-section">
+
+            <h2>What I Enjoy Building</h2>
+
+            <div class="about-grid">
+
+                <div class="card">
+                    <h3>Applications</h3>
+                    <p>
+                        Building web, desktop and Android applications
+                        that solve practical problems.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Backend & Databases</h3>
+                    <p>
+                        Working with application logic, databases and
+                        systems that manage and process information.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Cybersecurity</h3>
+                    <p>
+                        Exploring networking, Linux and security concepts
+                        to better understand how systems can be protected.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+    <p> 2026 Suhail Ward</p>
+</footer>
+
+</body>
 </html>
+

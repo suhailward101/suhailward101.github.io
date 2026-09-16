@@ -1,83 +1,159 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Movie Ticket Booking System</title>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking System | Suhail Ward</title>
     <link rel="stylesheet" href="../src/styles.css">
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <button class="menu-btn" onclick="toggleMenu()">Menu</button>
+<header class="nav-container">
 
-    <div class="top-banner">
-      <h1>Programming Portfolio</h1>
-    </div>
+<div class="logo">
+    <a href="../index.html">SW</a>
+</div>
 
-    <div class="sidebar">
-      <a href="../index.html">Home</a>
-      <a href="../about.html">About Me</a>
-      <a href="../projects.html">Projects</a>
-    </div>
+<nav class="nav-links">
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About Me</a>
+    <a href="../projects.html">Projects</a>
+    <a href="../index.html#skills">Skills</a>
+    <a href="../index.html#contact">Contact</a>
+</nav>
 
-    <main>
-      <h1>Movie Ticket Booking System</h1>
+</header>
 
-      <section class="project-detail">
-        <h2>Project Overview</h2>
-        <p>
-          This project is a Python-based movie ticket booking application that
-          uses a client–server system architecture. Users interact with a GUI
-          client, while the server script manages database operations such as
-          ticket sales and client connections. An admin interface allows for
-          adding, deleting, and updating movie details.
+<main>
+
+  section class="section project-detail-page">
+
+    <a href="../projects.html" class="back-link">← Back to Projects</a>
+
+    <div class="project-detail-header">
+
+        <p class="role">PYTHON APPLICATION</p>
+
+        <h1>Movie Ticket Booking System</h1>
+
+        <p class="project-summary">
+            A Python-based movie ticket booking application using a
+            client-server architecture to manage movie information,
+            ticket bookings and customer connections.
         </p>
 
-        <h2>Technical Overview</h2>
-        <ul>
-          <li>Python</li>
-          <li>Tkinter</li>
-          <li>Socket Programming</li>
-          <li>Multi-threading</li>
-          <li>SQLite Database</li>
-          <li>JSON</li>
-          <li>Visual Studio Code</li>
-          <li>Jupyter Notebook</li>
-        </ul>
+    </div>
 
-        <h2>Source Code</h2>
-        <p>
-          <a href="https://github.com/kadenward101/kadenward101.github.io/tree/main/src/movie-ticket-booking">
-            View Scripts on GitHub
-          </a>
-        </p>
+    <div class="project-detail-content">
 
-        <h2>Application Screenshots</h2>
+        <div class="project-info">
 
-        <p><strong>Client Script (GUI)</strong></p>
-        <img
-          src="../images/client-main.png"
-          alt="Movie Ticket Booking GUI"
-          class="project-image"
-        />
+            <section class="project-detail-section">
+                <h2>Project Overview</h2>
 
-        <p><strong>Ticket Receipt</strong></p>
-        <img
-          src="../images/ticket-receipt.png"
-          alt="Generated Ticket Receipt"
-          class="project-image"
-        />
-      </section>
-    </main>
+                <p>
+                    The Movie Ticket Booking System is a Python-based
+                    application designed to manage movie information and
+                    ticket bookings through a client-server architecture.
+                </p>
 
-    <footer>
-      Developed By Kaden Ward
-    </footer>
+                <p>
+                    Users interact with the system through a graphical
+                    interface, while the server manages client connections
+                    and database operations relating to movie information
+                    and ticket sales. The system also includes an
+                    administrative interface for managing movie details.
+                </p>
 
-    <script>
-      function toggleMenu() {
-        document.querySelector(".sidebar").classList.toggle("open");
-      }
-    </script>
+                <p>
+                    The project demonstrates the use of socket programming,
+                    multi-threading, graphical user interfaces and database
+                    management to create a functional distributed
+                    application.
+                </p>
+            </section>
 
-  </body>
+            <section class="project-detail-section">
+                <h2>Key Features</h2>
+
+                <div class="tech-list">
+                    <span>Movie Booking</span>
+                    <span>Client-Server Architecture</span>
+                    <span>Ticket Receipts</span>
+                    <span>Movie Management</span>
+                    <span>Multi-threading</span>
+                </div>
+            </section>
+
+            <section class="project-detail-section">
+                <h2>Technologies Used</h2>
+
+                <div class="tech-list">
+                    <span>Python</span>
+                    <span>Tkinter</span>
+                    <span>Socket Programming</span>
+                    <span>Multi-threading</span>
+                    <span>SQLite</span>
+                    <span>JSON</span>
+                    <span>Visual Studio Code</span>
+                    <span>Jupyter Notebook</span>
+                </div>
+            </section>
+
+            <section class="project-detail-section">
+                <h2>Application Screenshots</h2>
+
+                <div class="project-screenshots">
+
+                    <div>
+                        <h3>Client Interface</h3>
+
+                        <img
+                            src="../images/client-main.png"
+                            alt="Movie Ticket Booking client interface"
+                            class="project-image"
+                        >
+                    </div>
+
+                    <div>
+                        <h3>Ticket Receipt</h3>
+
+                        <img
+                            src="../images/ticket-receipt.png"
+                            alt="Generated movie ticket receipt"
+                            class="project-image"
+                        >
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="project-detail-section">
+                <h2>Source Code</h2>
+
+                <a
+                    href="https://github.com/suhailward101/suhailward101.github.io/tree/main/source-code/movie-ticket-booking"
+                    class="btn primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    View Source Code
+                </a>
+            </section>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Suhail Ward</p>
+</footer>
+
+</body>
 </html>
